@@ -1,0 +1,115 @@
+#container {
+    background-color: rgb(71, 71, 118);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+
+    padding: 30px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(66, 66, 76) 2px 2px 10px;
+
+}
+
+#control-panel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-basis: 100%;
+    /* This forces the panel to start a brand new row */
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-weight: 750;
+    text-shadow: rgb(109, 108, 108) 1px 1px 5px;
+
+}
+
+.Thenumber-background {
+    background-color: black;
+    margin-top: -8px;
+    padding: 18px 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: 550;
+    box-shadow: rgb(40, 39, 39) 1px 1px 10px;
+    width: 200px;
+
+    /* 2. Set a specific height so it stays a perfect rectangle/square */
+    height: 150px;
+
+    /* 3. Use flexbox to keep the number perfectly centered inside the fixed box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#score-el {
+    color: rgb(214, 79, 79);
+    text-shadow: rgb(203, 78, 78) 1px 1px 13px;
+    font-size: 130px;
+
+}
+
+#score-el2 {
+    color: rgb(214, 79, 79);
+    text-shadow: rgb(203, 78, 78) 1px 1px 13px;
+    font-size: 130px;
+
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(194, 193, 193);
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgb(109, 109, 109) 0 0 5px;
+
+}
+
+
+
+.management-btn {
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    /* A nice steel blue/grey */
+    color: #9AABD8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Add a hover effect so the user knows they are clickable */
+.management-btn:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+    /* Dark blue background color */
+}
